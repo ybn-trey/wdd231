@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page by Adjanor Juda Emmanuel">
+    <meta name="author" content="Adjanor Juda Emmanuel">
+    <title>Home Page | Adjanor Juda Emmanuel</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script defer src="script/navigation.js"></script>
+    <script defer src="script/date.js"></script>
+    <script defer src="script/course.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <span class="logo">
+                <img src="images/logo.svg" alt="Site Logo" width="60" height="60">
+            </span>
+            <span id="site-name">Adjanor Juda Emmanuel</span>
+        </div>
+
+        <button id="menu" aria-label="Menu">&#9776;</button>
+
+        <nav id="nav-menu" class="hidden">
+            <ul>
+                <li><a href="index.html" class="active">Home Page</a></li>
+                <li><a href="chamber.html">Chamber</a></li>
+                <li><a href="final.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                My name is Juda. I was born in Ghana and that's my country of residence.
+                I'm currently pursuing a degree in Mechanical Engineering alongside my BYU degree.
+                I live with my mom and siblings. I love to read and listen to music.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/student_photo.jpg" alt="Portrait of Adjanor Juda Emmanuel" width="300" height="300">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+            <div class="buttons">
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+            
+            <div id="courseContainer"></div>
+            
+            <div id="totalCredits">Total Credits: 0</div>
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/yourgithubusername" aria-label="GitHub Profile"><img src="images/github.svg"
+                    alt="GitHub Icon"></a>
+            <a href="https://linkedin.com/in/yourlinkedin" aria-label="LinkedIn Profile"><img src="images/linkedin.svg"
+                    alt="LinkedIn Icon"></a>
+        </div>
+
+        <p>©️ <span id="year"></span> | Adjanor Juda Emmanuel | Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
