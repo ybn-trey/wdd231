@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Sunrise Coffee Co.",
+        "address": "123 Main St",
+        "phone": "555-123-4567",
+        "website": "https://sunrisecoffee.example.com",
+        "image": "sunrise-coffee.png",
+        "membership": 3,
+        "description": "Local coffee shop serving artisan brews."
+    },
+    {
+        "name": "Green Valley Landscaping",
+        "address": "88 Hilltop Dr.",
+        "phone": "555-987-6543",
+        "website": "https://greenvalleylandscape.example.com",
+        "image": "green-valley.png",
+        "membership": 2,
+        "description": "Residential and commercial landscaping."
+    },
+    {
+        "name": "Bluebird Bookstore",
+        "address": "45 Market St.",
+        "phone": "555-222-1000",
+        "website": "https://bluebirdbooks.example.com",
+        "image": "bluebird.png",
+        "membership": 1,
+        "description": "Independent bookstore with events."
+    },
+    {
+        "name": "BrightTech Solutions",
+        "address": "77 Innovation Way",
+        "phone": "555-333-1212",
+        "website": "https://brighttech.example.com",
+        "image": "brighttech.png",
+        "membership": 3,
+        "description": "IT consulting and cloud services."
+    },
+    {
+        "name": "Healthy Living Clinic",
+        "address": "200 Wellness Ave",
+        "phone": "555-444-7777",
+        "website": "https://healthyliving.example.com",
+        "image": "healthyliving.png",
+        "membership": 2,
+        "description": "Family medical practice."
+    },
+    {
+        "name": "Crafty Corner Art Studio",
+        "address": "12 River Rd",
+        "phone": "555-555-9090",
+        "website": "https://craftycorner.example.com",
+        "image": "craftycorner.png",
+        "membership": 1,
+        "description": "Art classes and community workshops."
+    },
+    {
+        "name": "Peak Fitness Gym",
+        "address": "300 Alpine Ln",
+        "phone": "555-777-8888",
+        "website": "https://peakfitness.example.com",
+        "image": "peakfitness.png",
+        "membership": 3,
+        "description": "24/7 gym and personal training."
+    }
+]
